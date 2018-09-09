@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Next.ECommerce.Domain\Next.ECommerce.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Users\Commands\" />
+    <Folder Include="Users\Models\" />
+    <Folder Include="Users\Validators\" />
+    <Folder Include="Users\Queries\" />
+  </ItemGroup>
+
 </Project>

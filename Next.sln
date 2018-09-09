@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next.ECommerce.Manager", "Next.ECommerce.Manager\Next.ECommerce.Manager.csproj", "{B0A7F4FA-424C-4054-82CF-D10B92777054}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Next.ECommerce.Manager", "Next.ECommerce.Manager\Next.ECommerce.Manager.csproj", "{B0A7F4FA-424C-4054-82CF-D10B92777054}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next.ECommerce.Domain", "Next.ECommerce.Domain\Next.ECommerce.Domain.csproj", "{B3882CF2-5CB9-4969-A4A7-E6DCC64732D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Next.ECommerce.Domain", "Next.ECommerce.Domain\Next.ECommerce.Domain.csproj", "{B3882CF2-5CB9-4969-A4A7-E6DCC64732D9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next.ECommerce.Persistence", "Next.ECommerce.Persistence\Next.ECommerce.Persistence.csproj", "{62A5BA25-5DC8-4BCA-AEB2-333648887BE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Next.ECommerce.Persistence", "Next.ECommerce.Persistence\Next.ECommerce.Persistence.csproj", "{62A5BA25-5DC8-4BCA-AEB2-333648887BE9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Next.ECommerce.Application", "Next.ECommerce.Application\Next.ECommerce.Application.csproj", "{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Next.ECommerce.Infrastructure", "Next.ECommerce.Infrastructure\Next.ECommerce.Infrastructure.csproj", "{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{B0A7F4FA-424C-4054-82CF-D10B92777054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,35 @@ Global
 		{62A5BA25-5DC8-4BCA-AEB2-333648887BE9}.Release|x64.Build.0 = Release|Any CPU
 		{62A5BA25-5DC8-4BCA-AEB2-333648887BE9}.Release|x86.ActiveCfg = Release|Any CPU
 		{62A5BA25-5DC8-4BCA-AEB2-333648887BE9}.Release|x86.Build.0 = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|x64.Build.0 = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Debug|x86.Build.0 = Debug|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|x64.ActiveCfg = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|x64.Build.0 = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|x86.ActiveCfg = Release|Any CPU
+		{A768FC0E-C4EC-4FD6-890C-61BD90F1F135}.Release|x86.Build.0 = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|x64.Build.0 = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Debug|x86.Build.0 = Debug|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|x64.ActiveCfg = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|x64.Build.0 = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|x86.ActiveCfg = Release|Any CPU
+		{8DB62FF0-C95D-45CD-A75A-214A7FF88B3F}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F528574-A0BE-4159-A3D3-D3F8A13D583F}
 	EndGlobalSection
 EndGlobal
