@@ -15,9 +15,13 @@ namespace Northwind.Persistence.Configurations
                 .HasMaxLength(10)
                 .ValueGeneratedNever();
 
-            builder.Property(e => e.Name)
+            builder.Property(e => e.UserName)
                 .IsRequired()
                 .HasMaxLength(60);
+
+            builder.Property(e => e.Password)
+                .IsRequired()
+                .HasMaxLength(256);
         }
     }
 }
