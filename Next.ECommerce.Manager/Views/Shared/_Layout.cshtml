@@ -1,0 +1,48 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/favicon.ico" type="image/ico" />
+
+    <title>Gentelella Alela! | </title>
+
+    <partial name="_CssScripts.cshtml">
+</head>
+
+<body class="nav-md">
+    <div class="container body">
+        <div class="main_container">
+            <div class="col-md-3 left_col">           
+                <partial name="_LeftNavBar" />
+            </div>
+
+            <!-- top navigation -->
+            <div class="top_nav">
+                <partial name="_TopNav" />
+            </div>
+            <!-- /top navigation -->
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+                @RenderBody()
+            </div>
+            <!-- /page content -->
+
+            <!-- footer content -->
+            <footer>
+                <partial name="_Footer" />
+            </footer>
+            <!-- /footer content -->
+        </div>
+    </div>
+
+    <partial name="_Scripts" />
+
+</body>
+
+</html>
